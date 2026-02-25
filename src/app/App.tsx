@@ -9,12 +9,12 @@ import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
 import { Helmet } from "react-helmet-async";
 
-import img1 from "figma:asset/8becddbcad9bddd568025d15e7ae030755a09b41.png";
-import img2 from "figma:asset/dbb1985e9cd53890e14f295182789c33d0e08a2a.png";
-import img3 from "figma:asset/bd425cfb1a96d8336209ddf75d9a5bcd60b8298e.png";
-import img4 from "figma:asset/bd10981363b5cee46bf4586cdc66ed116ed9e46d.png";
-import img5 from "figma:asset/1adb0cc827b294484efbb80054fe8e41ac2039c2.png";
-import img6 from "figma:asset/db7dca02a433daef25b63c0c5b8dfe9bbcfc7fba.png";
+import img1 from "../assets/8becddbcad9bddd568025d15e7ae030755a09b41.png";
+import img2 from "../assets/dbb1985e9cd53890e14f295182789c33d0e08a2a.png";
+import img3 from "../assets/bd425cfb1a96d8336209ddf75d9a5bcd60b8298e.png";
+import img4 from "../assets/bd10981363b5cee46bf4586cdc66ed116ed9e46d.png";
+import img5 from "../assets/1adb0cc827b294484efbb80054fe8e41ac2039c2.png";
+import img6 from "../assets/db7dca02a433daef25b63c0c5b8dfe9bbcfc7fba.png";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
