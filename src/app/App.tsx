@@ -7,7 +7,7 @@ import {
 } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import img1 from "figma:asset/8becddbcad9bddd568025d15e7ae030755a09b41.png";
 import img2 from "figma:asset/dbb1985e9cd53890e14f295182789c33d0e08a2a.png";
