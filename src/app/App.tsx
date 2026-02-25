@@ -7,6 +7,8 @@ import {
 } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
+import { Helmet } from "react-helmet";
+
 import img1 from "figma:asset/8becddbcad9bddd568025d15e7ae030755a09b41.png";
 import img2 from "figma:asset/dbb1985e9cd53890e14f295182789c33d0e08a2a.png";
 import img3 from "figma:asset/bd425cfb1a96d8336209ddf75d9a5bcd60b8298e.png";
@@ -273,7 +275,15 @@ export default function App() {
   }, []);
 
   return (
-      <div className="min-h-screen bg-white">
+  <div className="min-h-screen bg-white">
+
+    <Helmet>
+      <title>Zemní práce Klatovy | Výkopy a bagrování</title>
+      <meta
+        name="description"
+        content="Provádíme zemní práce v Klatovech a okolí."
+      />
+    </Helmet>
 
         {/* Navigation - Header */}
         <header>
