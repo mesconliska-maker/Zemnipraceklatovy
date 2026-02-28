@@ -15,9 +15,9 @@ import img3 from "../assets/bd425cfb1a96d8336209ddf75d9a5bcd60b8298e.png";
 import img4 from "../assets/bd10981363b5cee46bf4586cdc66ed116ed9e46d.png";
 import img5 from "../assets/1adb0cc827b294484efbb80054fe8e41ac2039c2.png";
 import img6 from "../assets/db7dca02a433daef25b63c0c5b8dfe9bbcfc7fba.png";
-import img7 from "../assets/truck1.jpg";
-import img8 from "../assets/truck2.jpg";
-import img9 from "../assets/truck3.jpg";
+import img7 from "../assets/truck1.jpg.jpg";
+import img8 from "../assets/truck2.jpg.jpg";
+import img9 from "../assets/truck3.jpg.jpg";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
