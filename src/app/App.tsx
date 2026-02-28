@@ -3,7 +3,7 @@ import {
   Phone, Mail, MapPin, Menu, X, ArrowRight, 
   Shovel, BadgeCheck, Clock, Users, CheckCircle2,
   Wrench, Grid3x3, Fence, Paintbrush, Mountain, 
-  Home, Bath, Hammer, Snowflake
+  Home, Bath, Hammer, Snowflake, Truck
 } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
@@ -100,6 +100,11 @@ export default function App() {
       icon: <Fence className="w-8 h-8" />,
       title: "Výkopové práce pro základy plotů",
       description: "Výkopy a příprava základů pro oplocení"
+    },   // <-- přidej čárku zde
+    {
+      icon: <Truck className="w-8 h-8" />,
+      title: "Kontejnerová doprava",
+      description: "Přistavení a odvoz kontejneru pro likvidaci stavebního odpadu, zeminy a dalšího materiálu. Rychlé vyřízení a spolehlivý odvoz."
     }
   ];
 
